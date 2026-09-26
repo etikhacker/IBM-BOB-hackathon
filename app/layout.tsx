@@ -18,6 +18,11 @@ export const metadata: Metadata = {
   description:
     "AI-powered pre-release verification for software repositories. Run 8 parallel checks on security, tests, env config, migrations, and more.",
   keywords: ["release", "deployment", "code review", "CI/CD", "IBM Bob 2.0", "DevOps"],
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
