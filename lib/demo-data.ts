@@ -290,8 +290,8 @@ const ibmBobInsightsRun1: IBMBobInsight[] = [
 export const demoReportRun1: AnalysisReport = {
   id: "report-demo-001",
   repository: {
-    name: "my-saas-app",
-    url: "https://github.com/demo-user/my-saas-app",
+    name: "TaskFlow API",
+    url: "https://github.com/demo-user/taskflow-api",
     branch: "main",
     commit: "a3f2d91",
     projectType: "nextjs",
@@ -445,8 +445,8 @@ const ibmBobInsightsRun2: IBMBobInsight[] = [
 export const demoReportRun2: AnalysisReport = {
   id: "report-demo-002",
   repository: {
-    name: "my-saas-app",
-    url: "https://github.com/demo-user/my-saas-app",
+    name: "TaskFlow API",
+    url: "https://github.com/demo-user/taskflow-api",
     branch: "main",
     commit: "b7e4c12",
     projectType: "nextjs",

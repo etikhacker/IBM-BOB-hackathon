@@ -106,7 +106,7 @@ export function AnalysisForm() {
     const input: AnalysisFormInput = {
       source,
       projectType,
-      projectName: projectName || (source === "demo" ? "my-saas-app" : undefined),
+      projectName: projectName || (source === "demo" ? "TaskFlow API" : undefined),
       url: source === "github" ? url : undefined,
       file: source === "zip" ? (file ?? undefined) : undefined,
     };
@@ -262,7 +262,7 @@ export function AnalysisForm() {
               type="text"
               value={projectName}
               onChange={(e) => setProjectName(e.target.value)}
-              placeholder={source === "demo" ? "my-saas-app" : "Enter project name"}
+              placeholder={source === "demo" ? "TaskFlow API" : "Enter project name"}
               className="w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2.5 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-violet-500 transition-colors"
             />
           </div>

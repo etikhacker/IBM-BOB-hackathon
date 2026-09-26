@@ -108,7 +108,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       try {
         const report = await analysisEngine.analyze(
           {
-            name: input.projectName || "my-saas-app",
+            name: input.projectName || "TaskFlow API",
             projectType: input.projectType,
             source: input.source,
             runNumber,

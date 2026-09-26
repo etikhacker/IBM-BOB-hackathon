@@ -1,6 +1,6 @@
 # ReleaseGuard AI
 
-> **IBM Bob 2.0 Hackathon 2025 Submission**
+> **IBM Bob 2.0 Hackathon 2026 Submission**
 
 An AI-powered pre-release verification platform that analyzes software repositories
 and tells developers exactly what to fix before they deploy to production.
@@ -209,4 +209,4 @@ All three verification commands pass with zero errors and zero warnings.
 
 ---
 
-*Built entirely with IBM Bob 2.0 · IBM Bob Hackathon 2025*
+*Built entirely with IBM Bob 2.0 · IBM Bob Hackathon 2026*

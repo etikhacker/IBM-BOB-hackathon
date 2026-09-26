@@ -40,9 +40,10 @@ generate all 14 source files in parallel, perform a full QA audit that caught 10
 (including a conditional React hook violation and two stale closure bugs), and write
 all documentation — all in a single autonomous Agent session.
 
-At runtime, Bob surfaces AI insights directly on the report dashboard: security pattern
-detection with confidence scoring, N+1 query identification, and release risk probability
-estimation — transforming a static checklist tool into an intelligent engineering partner.
+The IBM Bob 2.0 — AI Insights panel on the report dashboard presents examples of
+the types of findings Bob surfaced during development — security pattern detection,
+N+1 query identification, and release risk estimation — reproduced as deterministic
+fixtures to demonstrate the workflow clearly.
 
 ---
 
@@ -128,7 +129,7 @@ In this demo:
 ReleaseGuard AI was built entirely inside IBM Bob 2.0 — architecture, all 14 source files,
 QA audit, bug fixes, and documentation — in a single autonomous Agent session.
 
-Built for the IBM Bob 2.0 Hackathon 2025.
+Built for the IBM Bob 2.0 Hackathon 2026.
 
 ---
 

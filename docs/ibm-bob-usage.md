@@ -136,27 +136,30 @@ All 10 issues were fixed in the same QA session. Final verification: 0 errors, 0
 
 ---
 
-## 6. Runtime Intelligence — Bob Powers the Analysis Engine
+## 6. Analysis Engine — Deterministic Model Informed by IBM Bob 2.0
 
-IBM Bob 2.0 is not only used during development — it powers the analysis engine
-at runtime:
+The demo uses a deterministic analysis engine modeled around IBM Bob 2.0's
+repository-aware workflow. The analysis results, risk scores, and insight content
+are pre-authored fixture data that reflect the types of findings Bob would surface
+when analyzing a real repository. IBM Bob 2.0 was used to design, implement, debug,
+test, and document the product.
 
-**Security pattern detection:**
-Bob analyzes the authentication configuration and identifies missing session expiry
-settings, returning a confidence score of 91% alongside a specific remediation step.
+The **IBM Bob 2.0 — AI Insights** panel on the report dashboard shows examples of
+what Bob-style analysis looks like in practice:
 
-**Performance analysis:**
-Bob identifies N+1 query patterns in the data access layer and correlates them with
-pending database migrations that should include index additions.
+**Security pattern detection (example):**
+The auth configuration insight — missing session expiry with 91% confidence — is
+based on a real pattern Bob identified during development of this product, documented
+and then reproduced in the demo fixture.
 
-**Release risk estimation:**
-Bob computes a probabilistic risk score (0–100) based on the combination of failed
-checks, blocker severity, and historical deployment patterns. On Run 1, Bob reports
-a 73% probability of a production incident — which drops to 18% on Run 2 after
-the blockers are resolved.
+**Performance analysis (example):**
+The N+1 query pattern insight reflects an actual finding Bob made while reviewing
+the demo data model design, also reproduced as a fixture.
 
-These insights appear on the report dashboard in the **IBM Bob 2.0 — AI Insights** panel,
-each with a confidence percentage and a direct link to the related check.
+**Release risk estimation (example):**
+The risk score (73 → 18 across two runs) and the probability estimates are
+deterministic values designed to demonstrate the before/after workflow clearly.
+Each value was informed by Bob's analysis reasoning during development.
 
 ---
 
@@ -187,4 +190,4 @@ The following Bob session moments are recommended for submission screenshots:
 
 ---
 
-*All code in this repository was produced by IBM Bob 2.0 — IBM Bob Hackathon 2025*
+*All code in this repository was produced by IBM Bob 2.0 — IBM Bob Hackathon 2026*

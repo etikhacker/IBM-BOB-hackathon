@@ -101,7 +101,7 @@ export function LandingPage() {
   const { navigate, startAnalysis } = useApp();
 
   const handleDemo = () => {
-    startAnalysis({ source: "demo", projectType: "nextjs", projectName: "my-saas-app" });
+    startAnalysis({ source: "demo", projectType: "nextjs", projectName: "TaskFlow API" });
   };
 
   return (
@@ -257,8 +257,9 @@ export function LandingPage() {
                 IBM Bob 2.0 using Agent mode, parallel subagent tasks, and autonomous code analysis.
               </p>
               <p className="text-slate-400 leading-relaxed mb-6 text-sm">
-                Bob also powers the analysis engine at runtime — performing intelligent
-                pattern detection, risk scoring, and fix-plan generation.
+                The demo uses a deterministic analysis engine modeled around IBM Bob 2.0&apos;s
+                repository-aware workflow. IBM Bob 2.0 was used to design, implement, debug,
+                test, and document the product.
               </p>
               <ul className="space-y-3" role="list">
                 {[
@@ -345,7 +346,7 @@ export function LandingPage() {
             <span className="text-sm text-slate-500">ReleaseGuard AI</span>
           </div>
           <p className="text-xs text-slate-600 text-center sm:text-right">
-            Built entirely with IBM Bob 2.0 &nbsp;&middot;&nbsp; IBM Bob Hackathon 2025
+            Built entirely with IBM Bob 2.0 &nbsp;&middot;&nbsp; IBM Bob Hackathon 2026
           </p>
         </div>
       </footer>
