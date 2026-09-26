@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dark navy background -->
+  <rect width="200" height="200" fill="#060e1f"/>
+
+  <!-- Shield outer (blue border) -->
+  <path d="M100 12 L168 40 L168 105 C168 148 138 178 100 192 C62 178 32 148 32 105 L32 40 Z"
+        fill="#1a2a4a" stroke="#2563eb" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Shield inner fill -->
+  <path d="M100 22 L158 46 L158 105 C158 143 132 170 100 182 C68 170 42 143 42 105 L42 46 Z"
+        fill="#0d1a35"/>
+
+  <!-- White checkmark body (left leg) -->
+  <path d="M62 98 L82 118 L138 58" fill="none" stroke="white" stroke-width="18"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- White upward arrow overlapping check (diagonal line) -->
+  <line x1="75" y1="112" x2="138" y2="58" stroke="white" stroke-width="18"
+        stroke-linecap="round"/>
+  <!-- Arrow head -->
+  <polygon points="138,58 118,58 138,78" fill="white"/>
+
+  <!-- Green chevron bottom center -->
+  <path d="M82 148 L100 132 L118 148" fill="none" stroke="#22c55e" stroke-width="10"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
